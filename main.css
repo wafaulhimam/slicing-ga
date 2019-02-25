@@ -1,0 +1,161 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.kotakatas{
+    height: 320px;
+    background-color: #232330;
+}
+
+.kotaktengah{
+    height: 750px;
+    background-color: #ffffff;
+}
+
+.kotakbawah{
+    height: 214px;
+    background-color: #232330;
+}
+
+/* Mulai Navbar */
+.navbartop{
+    font-family: 'Montserrat', sans-serif;
+    cursor:pointer;
+}
+
+.navbarkiri{
+    float: left;
+    font-weight: 900;
+    font-size: 36px;
+    text-transform: uppercase;
+	background: linear-gradient(to right, #ff961f 0%, #ff5e49 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.navbarkanan{
+    float: right;
+    font-size:16px;
+    color:#ff961f;
+}
+.navbarkanan:hover{
+    color:#ffffff;
+}
+/* Akhiri Navbar */
+
+.showcase{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.showcase2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.stunning{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+}
+
+.cob{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #a2a2a8;
+}
+
+.tbl {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.tbl1 {
+    background-color: #232330; 
+    color: #ff9420; 
+    border: 0px solid #4CAF50;
+}
+
+.tbl1:hover {
+    background-color: #ff9420;
+    color: white;
+    border-radius: 25px;
+}
+
+.tbl2 {
+    background-color: #ff9420; 
+    color: #ffffff; 
+    border: 0px solid #4CAF50;
+}
+
+.tbl2:hover {
+    background-color: #e9e9ea;
+    color: #232330;
+    border-radius: 25px;
+}
+
+.tbl3 {
+    background-color: #ff9420; 
+    color: #ffffff; 
+    border: 0px solid #4CAF50;
+    border-radius: 25px;
+}
+
+.tbl3:hover {
+    background-color: #e9e9ea;
+    color: #232330;
+    border-radius: 25px;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e97f2a;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
